@@ -18,7 +18,7 @@ simplyMinify();
 ```
 This will minify all files in the `"dist"` folder in the **root directory** of your app.
 ## Arguments
-The function `simplyMinify` takes 3 arguments with the following default values:
+The function `simplyMinify` takes 3 arguments:
 
 argument|data type|description|default|example
 ---|---|---|---|---
@@ -27,7 +27,8 @@ argument|data type|description|default|example
 `UglifyJS_Options`|`object`|[options for UglifyJS3](https://github.com/mishoo/UglifyJS2#minify-options)|`{}`|*`{mangle: false}`*
 ## CLI mode
 ***Make sure you have installed the npm-package globally:*** `npm install simply-minify -g`
-You can use simply-minify straight from the command line with:
+
+You can use Simply-Minify straight from the command line with:
 ```js
 simplyMinify <path>
 ```
