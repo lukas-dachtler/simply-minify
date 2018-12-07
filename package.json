@@ -1,0 +1,26 @@
+{
+  "name": "simply-minify",
+  "version": "1.0.0",
+  "author": "Lukas Dachtler <info@lukas-dachtler.de> (http://www.lukas-dachtler.de)",
+  "description": "Simply-Minify is a simple minifier for CSS and JS file on the node.js platform.",
+  "license": "MIT",
+  "keywords": [
+    "minify",
+    "minifier",
+    "css",
+    "js"
+  ],
+  "homepage": "https://github.com/lukas-dachtler/simply-minify",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukas-dachtler/simply-minify.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "minify": "node index.js"
+  },
+  "dependencies": {
+    "clean-css": "^4.2.1",
+    "uglify-js": "^3.4.9"
+  }
+}
