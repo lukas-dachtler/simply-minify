@@ -9,7 +9,7 @@ NPM-Package|Version
 **UglifyJS3**|[![NPM version](https://img.shields.io/badge/npm-v3.4.9-blue.svg)](https://www.npmjs.com/package/uglify-js)
 # Install
 ```
-npm install simply-minify
+npm i simply-minify -D
 ```
 # Use
 ```js
