@@ -86,7 +86,7 @@ function compileFile(input, type) {
             break;
         case 'js':
             result = UglifyJS.minify(uncompressed, _UglifyJS_Options);
-            if (result.warnings.length > 0) {
+            if (result.warnings !== undefined && result.warnings.length > 0) {
                 let message = '\n';
                 result.warnings.forEach(function (warning) {
                     message = message + warning.replace(/(?:\r\n|\r|\n)/g, '').replace(/ +(?= )/g, '') + '\n';
