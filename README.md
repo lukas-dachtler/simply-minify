@@ -6,7 +6,7 @@
 NPM-Package|Version
 ---|---
 **clean-css**|[![NPM version](https://img.shields.io/badge/npm-v4.2.1-blue.svg)](https://www.npmjs.com/package/clean-css)
-**UglifyJS3**|[![NPM version](https://img.shields.io/badge/npm-v3.4.9-blue.svg)](https://www.npmjs.com/package/uglify-js)
+**UglifyJS3**|[![NPM version](https://img.shields.io/badge/npm-v3.5.3-blue.svg)](https://www.npmjs.com/package/uglify-js)
 # Install
 ```
 npm i simply-minify -D
